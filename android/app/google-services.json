@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "301969956590",
+    "project_id": "celta-5a06c",
+    "storage_bucket": "celta-5a06c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301969956590:android:52bf5b5e0aa505f1051dff",
+        "android_client_info": {
+          "package_name": "com.celta.sucursalvirtual"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301969956590-lkauf8cfe1ob86tco8mt87te3jk5loha.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.celta.sucursalvirtual",
+            "certificate_hash": "a003a63b019e60dae1c2249f9c46c563e1d80455"
+          }
+        },
+        {
+          "client_id": "301969956590-fd3critn6j61vdi513p8di2jo5dnmq0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANXUiAKvx5GGXZZ9_v_a68F2m-CRDZmeQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301969956590-fd3critn6j61vdi513p8di2jo5dnmq0h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

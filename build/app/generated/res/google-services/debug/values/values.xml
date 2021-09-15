@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">301969956590-fd3critn6j61vdi513p8di2jo5dnmq0h.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">301969956590</string>
+    <string name="google_api_key" translatable="false">AIzaSyANXUiAKvx5GGXZZ9_v_a68F2m-CRDZmeQ</string>
+    <string name="google_app_id" translatable="false">1:301969956590:android:52bf5b5e0aa505f1051dff</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyANXUiAKvx5GGXZZ9_v_a68F2m-CRDZmeQ</string>
+    <string name="google_storage_bucket" translatable="false">celta-5a06c.appspot.com</string>
+    <string name="project_id" translatable="false">celta-5a06c</string>
+</resources>
