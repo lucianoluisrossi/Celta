@@ -1,5 +1,6 @@
 import 'package:celta/pages/fac_page.dart';
 import 'package:celta/services/firebase/auth_app_state.dart';
+import 'package:celta/services/http/suministros_json.dart';
 import 'package:celta/widgets/authentication/auth_button.dart';
 import 'package:celta/widgets/authentication/auth_text_field.dart';
 import 'package:flutter/material.dart';
@@ -24,6 +25,7 @@ class UserForm extends StatefulWidget {
 }
 
 class _UserFormState extends State<UserForm> {
+  final SuministrosJson suministro = SuministrosJson();
   final firestoreRegistration = AuthAppState();
   final _nameController = TextEditingController();
   final _codUsuarioController = TextEditingController();
@@ -101,16 +103,26 @@ class _UserFormState extends State<UserForm> {
               AuthButton(
                   label: 'Registrar',
                   onPressed: () async {
-                    await firestoreRegistration.buildUsuarioFirestore(
-                        _nameController.text.toString(),
-                        _codUsuarioController.text.toString());
-                    Fluttertoast.showToast(
-                        msg: 'Los datos se registraron correctamente');
+                    var suminData = await suministro.getData(
+                      _codUsuarioController.text.toString(),
+                    );
+                    if (suminData != null) {
+                      await firestoreRegistration.buildUsuarioFirestore(
+                          _nameController.text.toString(),
+                          _codUsuarioController.text.toString());
+
+                      Fluttertoast.showToast(
+                          msg: 'Los datos se registraron correctamente');
+                    } else {
+                      Fluttertoast.showToast(
+                          msg: 'El cod de suministro no existe');
+                    }
+
                     //TODO: Verificar porque no funciona provider para pasar a FacPage()
-                    Navigator.pushAndRemoveUntil(
+                    /*      Navigator.pushAndRemoveUntil(
                         (context),
                         MaterialPageRoute(builder: (context) => FacPage()),
-                        (route) => false);
+                        (route) => false); */
                   }
 
                   /* => widget.callback(
