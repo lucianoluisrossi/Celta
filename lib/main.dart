@@ -24,7 +24,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       //Rutas
-      initialRoute: 'homepage',
+      initialRoute: 'authpage',
       routes: {
         'authpage': (BuildContext context) => AuthPage(),
         'facpage': (BuildContext context) => FacPage(),

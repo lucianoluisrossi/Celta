@@ -12,29 +12,24 @@ class AuthPage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Celta'),
       ),
-      body: Stack(
-        children: [
-          FondoCelta(),
-          Center(
-            child: Consumer<AuthAppState>(
-              builder: (context, appState, _) => FirebaseAuthentication(
-                email: appState.email,
-                loginState: appState.loginState,
-                verifyEmail: appState.verifyEmail,
-                signInWithEmailAndPassword: appState.signInWithEmailAndPassword,
-                cancelRegistration: appState.cancelRegistration,
-                registerAccount: appState.registerAccount,
-                signOut: appState.signOut,
-                emailVerified: appState.emailVerified,
-              ),
-            ),
-
-            /*RegisterForm(
-              formHeight: size.height * 0.5,
-              formWidth: size.width * 0.90,
-            ), */
+      body: Center(
+        child: Consumer<AuthAppState>(
+          builder: (context, appState, _) => FirebaseAuthentication(
+            email: appState.email,
+            loginState: appState.loginState,
+            verifyEmail: appState.verifyEmail,
+            signInWithEmailAndPassword: appState.signInWithEmailAndPassword,
+            cancelRegistration: appState.cancelRegistration,
+            registerAccount: appState.registerAccount,
+            signOut: appState.signOut,
+            emailVerified: appState.emailVerified,
           ),
-        ],
+        ),
+
+        /*RegisterForm(
+          formHeight: size.height * 0.5,
+          formWidth: size.width * 0.90,
+        ), */
       ),
     );
   }
