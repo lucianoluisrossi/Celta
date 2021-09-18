@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml",
+            "outputFile": "X:\\DESARROLLO\\flutter\\appCelta\\celta\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tr\\values-tr.xml",
             "map": [
                 {
-                    "source": "/home/llr/.gradle/caches/transforms-2/files-2.1/a2b3031abb4c04068234c016491c7c7c/play-services-base-17.1.0/res/values-tr/values.xml",
+                    "source": "C:\\Users\\rossil.CELTA\\.gradle\\caches\\transforms-2\\files-2.1\\a2b3031abb4c04068234c016491c7c7c\\play-services-base-17.1.0\\res\\values-tr\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/llr/.gradle/caches/transforms-2/files-2.1/fd24535dd44cb47b00ac4816db3309ce/core-1.1.0/res/values-tr/values-tr.xml",
+                    "source": "C:\\Users\\rossil.CELTA\\.gradle\\caches\\transforms-2\\files-2.1\\fd24535dd44cb47b00ac4816db3309ce\\core-1.1.0\\res\\values-tr\\values-tr.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/home/llr/.gradle/caches/transforms-2/files-2.1/8e4f7f45421bdd8e0e93f7fe7e5349ea/jetified-firebase-messaging-22.0.0/res/values-tr/values.xml",
+                    "source": "C:\\Users\\rossil.CELTA\\.gradle\\caches\\transforms-2\\files-2.1\\9365ddc97b9879fee4199b4f3cf432d4\\jetified-firebase-messaging-22.0.0\\res\\values-tr\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "/home/llr/.gradle/caches/transforms-2/files-2.1/7d79a18d1ea0a65825a661ed2cf0df38/jetified-play-services-basement-17.1.0/res/values-tr/values.xml",
+                    "source": "C:\\Users\\rossil.CELTA\\.gradle\\caches\\transforms-2\\files-2.1\\c1d3f34ca15a5fb92812be53af443511\\jetified-play-services-basement-17.1.0\\res\\values-tr\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

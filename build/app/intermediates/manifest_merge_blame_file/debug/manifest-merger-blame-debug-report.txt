@@ -12,20 +12,20 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->/home/llr/DESARROLLO/FLUTTER/appCelta/celta/android/app/src/debug/AndroidManifest.xml:6:5-66
-14-->/home/llr/DESARROLLO/FLUTTER/appCelta/celta/android/app/src/debug/AndroidManifest.xml:6:22-64
+14-->X:\DESARROLLO\flutter\appCelta\celta\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->X:\DESARROLLO\flutter\appCelta\celta\android\app\src\debug\AndroidManifest.xml:6:22-64
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->[:firebase_analytics] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
-15-->[:firebase_analytics] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
+15-->[:firebase_analytics] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
+15-->[:firebase_analytics] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
 16    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-16-->[:firebase_analytics] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-68
-16-->[:firebase_analytics] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-65
+16-->[:firebase_analytics] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-68
+16-->[:firebase_analytics] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-65
 17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-17-->[com.google.firebase:firebase-iid:21.1.0] /home/llr/.gradle/caches/transforms-2/files-2.1/e0d63e89ee928ef4d55508e31552329c/firebase-iid-21.1.0/AndroidManifest.xml:26:5-82
-17-->[com.google.firebase:firebase-iid:21.1.0] /home/llr/.gradle/caches/transforms-2/files-2.1/e0d63e89ee928ef4d55508e31552329c/firebase-iid-21.1.0/AndroidManifest.xml:26:22-79
+17-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\e0d63e89ee928ef4d55508e31552329c\firebase-iid-21.1.0\AndroidManifest.xml:26:5-82
+17-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\e0d63e89ee928ef4d55508e31552329c\firebase-iid-21.1.0\AndroidManifest.xml:26:22-79
 18    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-18-->[com.google.android.gms:play-services-measurement:19.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/35d786d3d5a1bd549d715c97ced835b3/play-services-measurement-19.0.0/AndroidManifest.xml:26:5-110
-18-->[com.google.android.gms:play-services-measurement:19.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/35d786d3d5a1bd549d715c97ced835b3/play-services-measurement-19.0.0/AndroidManifest.xml:26:22-107
+18-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\35d786d3d5a1bd549d715c97ced835b3\play-services-measurement-19.0.0\AndroidManifest.xml:26:5-110
+18-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\35d786d3d5a1bd549d715c97ced835b3\play-services-measurement-19.0.0\AndroidManifest.xml:26:22-107
 19    <!--
 20 io.flutter.app.FlutterApplication is an android.app.Application that
 21         calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -34,32 +34,32 @@
 24         FlutterApplication and put your custom class here.
 25    -->
 26    <application
-26-->/home/llr/DESARROLLO/FLUTTER/appCelta/celta/android/app/src/main/AndroidManifest.xml:8:5-46:19
+26-->X:\DESARROLLO\flutter\appCelta\celta\android\app\src\main\AndroidManifest.xml:8:5-46:19
 27        android:name="io.flutter.app.FlutterApplication"
-27-->/home/llr/DESARROLLO/FLUTTER/appCelta/celta/android/app/src/main/AndroidManifest.xml:9:9-57
+27-->X:\DESARROLLO\flutter\appCelta\celta\android\app\src\main\AndroidManifest.xml:9:9-57
 28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-28-->[androidx.core:core:1.1.0] /home/llr/.gradle/caches/transforms-2/files-2.1/fd24535dd44cb47b00ac4816db3309ce/core-1.1.0/AndroidManifest.xml:24:18-86
+28-->[androidx.core:core:1.1.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\fd24535dd44cb47b00ac4816db3309ce\core-1.1.0\AndroidManifest.xml:24:18-86
 29        android:debuggable="true"
 30        android:icon="@mipmap/ic_launcher"
-30-->/home/llr/DESARROLLO/FLUTTER/appCelta/celta/android/app/src/main/AndroidManifest.xml:11:9-43
+30-->X:\DESARROLLO\flutter\appCelta\celta\android\app\src\main\AndroidManifest.xml:11:9-43
 31        android:label="celta"
-31-->/home/llr/DESARROLLO/FLUTTER/appCelta/celta/android/app/src/main/AndroidManifest.xml:10:9-30
+31-->X:\DESARROLLO\flutter\appCelta\celta\android\app\src\main\AndroidManifest.xml:10:9-30
 32        android:usesCleartextTraffic="true" >
-32-->[:cloud_functions] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/cloud_functions/intermediates/library_manifest/debug/AndroidManifest.xml:9:9-44
+32-->[:cloud_functions] X:\DESARROLLO\flutter\appCelta\celta\build\cloud_functions\intermediates\library_manifest\debug\AndroidManifest.xml:9:9-44
 33        <activity
-33-->/home/llr/DESARROLLO/FLUTTER/appCelta/celta/android/app/src/main/AndroidManifest.xml:12:9-40:20
+33-->X:\DESARROLLO\flutter\appCelta\celta\android\app\src\main\AndroidManifest.xml:12:9-40:20
 34            android:name="com.example.celta.MainActivity"
-34-->/home/llr/DESARROLLO/FLUTTER/appCelta/celta/android/app/src/main/AndroidManifest.xml:13:13-41
+34-->X:\DESARROLLO\flutter\appCelta\celta\android\app\src\main\AndroidManifest.xml:13:13-41
 35            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-35-->/home/llr/DESARROLLO/FLUTTER/appCelta/celta/android/app/src/main/AndroidManifest.xml:16:13-163
+35-->X:\DESARROLLO\flutter\appCelta\celta\android\app\src\main\AndroidManifest.xml:16:13-163
 36            android:hardwareAccelerated="true"
-36-->/home/llr/DESARROLLO/FLUTTER/appCelta/celta/android/app/src/main/AndroidManifest.xml:17:13-47
+36-->X:\DESARROLLO\flutter\appCelta\celta\android\app\src\main\AndroidManifest.xml:17:13-47
 37            android:launchMode="singleTop"
-37-->/home/llr/DESARROLLO/FLUTTER/appCelta/celta/android/app/src/main/AndroidManifest.xml:14:13-43
+37-->X:\DESARROLLO\flutter\appCelta\celta\android\app\src\main\AndroidManifest.xml:14:13-43
 38            android:theme="@style/LaunchTheme"
-38-->/home/llr/DESARROLLO/FLUTTER/appCelta/celta/android/app/src/main/AndroidManifest.xml:15:13-47
+38-->X:\DESARROLLO\flutter\appCelta\celta\android\app\src\main\AndroidManifest.xml:15:13-47
 39            android:windowSoftInputMode="adjustResize" >
-39-->/home/llr/DESARROLLO/FLUTTER/appCelta/celta/android/app/src/main/AndroidManifest.xml:18:13-55
+39-->X:\DESARROLLO\flutter\appCelta\celta\android\app\src\main\AndroidManifest.xml:18:13-55
 40
 41            <!--
 42                 Specifies an Android theme to apply to this Activity as soon as
@@ -68,11 +68,11 @@
 45                 to determine the Window background behind the Flutter UI.
 46            -->
 47            <meta-data
-47-->/home/llr/DESARROLLO/FLUTTER/appCelta/celta/android/app/src/main/AndroidManifest.xml:23:13-26:17
+47-->X:\DESARROLLO\flutter\appCelta\celta\android\app\src\main\AndroidManifest.xml:23:13-26:17
 48                android:name="io.flutter.embedding.android.NormalTheme"
-48-->/home/llr/DESARROLLO/FLUTTER/appCelta/celta/android/app/src/main/AndroidManifest.xml:24:15-70
+48-->X:\DESARROLLO\flutter\appCelta\celta\android\app\src\main\AndroidManifest.xml:24:15-70
 49                android:resource="@style/NormalTheme" />
-49-->/home/llr/DESARROLLO/FLUTTER/appCelta/celta/android/app/src/main/AndroidManifest.xml:25:15-52
+49-->X:\DESARROLLO\flutter\appCelta\celta\android\app\src\main\AndroidManifest.xml:25:15-52
 50            <!--
 51                 Displays an Android View that continues showing the launch screen
 52                 Drawable until Flutter paints its first frame, then this splash
@@ -81,21 +81,21 @@
 55                 Flutter's first frame.
 56            -->
 57            <meta-data
-57-->/home/llr/DESARROLLO/FLUTTER/appCelta/celta/android/app/src/main/AndroidManifest.xml:32:13-35:17
+57-->X:\DESARROLLO\flutter\appCelta\celta\android\app\src\main\AndroidManifest.xml:32:13-35:17
 58                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-58-->/home/llr/DESARROLLO/FLUTTER/appCelta/celta/android/app/src/main/AndroidManifest.xml:33:15-79
+58-->X:\DESARROLLO\flutter\appCelta\celta\android\app\src\main\AndroidManifest.xml:33:15-79
 59                android:resource="@drawable/launch_background" />
-59-->/home/llr/DESARROLLO/FLUTTER/appCelta/celta/android/app/src/main/AndroidManifest.xml:34:15-61
+59-->X:\DESARROLLO\flutter\appCelta\celta\android\app\src\main\AndroidManifest.xml:34:15-61
 60
 61            <intent-filter>
-61-->/home/llr/DESARROLLO/FLUTTER/appCelta/celta/android/app/src/main/AndroidManifest.xml:36:13-39:29
+61-->X:\DESARROLLO\flutter\appCelta\celta\android\app\src\main\AndroidManifest.xml:36:13-39:29
 62                <action android:name="android.intent.action.MAIN" />
-62-->/home/llr/DESARROLLO/FLUTTER/appCelta/celta/android/app/src/main/AndroidManifest.xml:37:17-68
-62-->/home/llr/DESARROLLO/FLUTTER/appCelta/celta/android/app/src/main/AndroidManifest.xml:37:25-66
+62-->X:\DESARROLLO\flutter\appCelta\celta\android\app\src\main\AndroidManifest.xml:37:17-68
+62-->X:\DESARROLLO\flutter\appCelta\celta\android\app\src\main\AndroidManifest.xml:37:25-66
 63
 64                <category android:name="android.intent.category.LAUNCHER" />
-64-->/home/llr/DESARROLLO/FLUTTER/appCelta/celta/android/app/src/main/AndroidManifest.xml:38:17-76
-64-->/home/llr/DESARROLLO/FLUTTER/appCelta/celta/android/app/src/main/AndroidManifest.xml:38:27-74
+64-->X:\DESARROLLO\flutter\appCelta\celta\android\app\src\main\AndroidManifest.xml:38:17-76
+64-->X:\DESARROLLO\flutter\appCelta\celta\android\app\src\main\AndroidManifest.xml:38:27-74
 65            </intent-filter>
 66        </activity>
 67        <!--
@@ -103,299 +103,299 @@
 69             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 70        -->
 71        <meta-data
-71-->/home/llr/DESARROLLO/FLUTTER/appCelta/celta/android/app/src/main/AndroidManifest.xml:43:9-45:33
+71-->X:\DESARROLLO\flutter\appCelta\celta\android\app\src\main\AndroidManifest.xml:43:9-45:33
 72            android:name="flutterEmbedding"
-72-->/home/llr/DESARROLLO/FLUTTER/appCelta/celta/android/app/src/main/AndroidManifest.xml:44:13-44
+72-->X:\DESARROLLO\flutter\appCelta\celta\android\app\src\main\AndroidManifest.xml:44:13-44
 73            android:value="2" />
-73-->/home/llr/DESARROLLO/FLUTTER/appCelta/celta/android/app/src/main/AndroidManifest.xml:45:13-30
+73-->X:\DESARROLLO\flutter\appCelta\celta\android\app\src\main\AndroidManifest.xml:45:13-30
 74
 75        <service
-75-->[:cloud_functions] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/cloud_functions/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-15:19
+75-->[:firebase_analytics] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-16:19
 76            android:name="com.google.firebase.components.ComponentDiscoveryService"
-76-->[:cloud_functions] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/cloud_functions/intermediates/library_manifest/debug/AndroidManifest.xml:11:18-89
+76-->[:firebase_analytics] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:12:18-89
 77            android:directBootAware="true"
-77-->[com.google.firebase:firebase-common:20.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/9f6f82f9c29f01f4041a8487c63fbd4b/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+77-->[com.google.firebase:firebase-common:20.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\b37b81057e91b0696190ce629abe4257\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
 78            android:exported="false" >
-78-->[com.google.firebase:firebase-functions:20.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/f029de2a8fd6fd6a2dc92dafbd4b9d90/jetified-firebase-functions-20.0.0/AndroidManifest.xml:17:13-37
+78-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
 79            <meta-data
-79-->[:cloud_functions] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/cloud_functions/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-14:85
-80                android:name="com.google.firebase.components:io.flutter.plugins.firebase.functions.FlutterFirebaseAppRegistrar"
-80-->[:cloud_functions] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/cloud_functions/intermediates/library_manifest/debug/AndroidManifest.xml:13:17-128
+79-->[:firebase_analytics] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:85
+80                android:name="com.google.firebase.components:io.flutter.plugins.firebaseanalytics.FlutterFirebaseAppRegistrar"
+80-->[:firebase_analytics] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-127
 81                android:value="com.google.firebase.components.ComponentRegistrar" />
-81-->[:cloud_functions] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/cloud_functions/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-82
+81-->[:firebase_analytics] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-82
 82            <meta-data
-82-->[:firebase_analytics] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:85
-83                android:name="com.google.firebase.components:io.flutter.plugins.firebaseanalytics.FlutterFirebaseAppRegistrar"
-83-->[:firebase_analytics] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-127
+82-->[:firebase_auth] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+83                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+83-->[:firebase_auth] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
 84                android:value="com.google.firebase.components.ComponentRegistrar" />
-84-->[:firebase_analytics] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-82
+84-->[:firebase_auth] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 85            <meta-data
-85-->[:firebase_auth] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
-86                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-86-->[:firebase_auth] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+85-->[:firebase_messaging] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-36:85
+86                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+86-->[:firebase_messaging] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:35:17-128
 87                android:value="com.google.firebase.components.ComponentRegistrar" />
-87-->[:firebase_auth] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+87-->[:firebase_messaging] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:36:17-82
 88            <meta-data
-88-->[:firebase_storage] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
-89                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
-89-->[:firebase_storage] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
+88-->[:cloud_firestore] X:\DESARROLLO\flutter\appCelta\celta\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+89                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+89-->[:cloud_firestore] X:\DESARROLLO\flutter\appCelta\celta\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
 90                android:value="com.google.firebase.components.ComponentRegistrar" />
-90-->[:firebase_storage] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+90-->[:cloud_firestore] X:\DESARROLLO\flutter\appCelta\celta\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 91            <meta-data
-91-->[:cloud_firestore] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
-92                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-92-->[:cloud_firestore] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
+91-->[:cloud_functions] X:\DESARROLLO\flutter\appCelta\celta\build\cloud_functions\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-14:85
+92                android:name="com.google.firebase.components:io.flutter.plugins.firebase.functions.FlutterFirebaseAppRegistrar"
+92-->[:cloud_functions] X:\DESARROLLO\flutter\appCelta\celta\build\cloud_functions\intermediates\library_manifest\debug\AndroidManifest.xml:13:17-128
 93                android:value="com.google.firebase.components.ComponentRegistrar" />
-93-->[:cloud_firestore] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+93-->[:cloud_functions] X:\DESARROLLO\flutter\appCelta\celta\build\cloud_functions\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-82
 94            <meta-data
-94-->[:firebase_messaging] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:34:13-36:85
-95                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
-95-->[:firebase_messaging] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:35:17-128
+94-->[:firebase_storage] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+95                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+95-->[:firebase_storage] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
 96                android:value="com.google.firebase.components.ComponentRegistrar" />
-96-->[:firebase_messaging] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:36:17-82
+96-->[:firebase_storage] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 97            <meta-data
-97-->[:firebase_core] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+97-->[:firebase_core] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 98                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-98-->[:firebase_core] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+98-->[:firebase_core] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
 99                android:value="com.google.firebase.components.ComponentRegistrar" />
-99-->[:firebase_core] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+99-->[:firebase_core] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 100            <meta-data
-100-->[com.google.firebase:firebase-functions:20.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/f029de2a8fd6fd6a2dc92dafbd4b9d90/jetified-firebase-functions-20.0.0/AndroidManifest.xml:18:13-20:85
-101                android:name="com.google.firebase.components:com.google.firebase.functions.FunctionsRegistrar"
-101-->[com.google.firebase:firebase-functions:20.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/f029de2a8fd6fd6a2dc92dafbd4b9d90/jetified-firebase-functions-20.0.0/AndroidManifest.xml:19:17-111
+100-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+101                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+101-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
 102                android:value="com.google.firebase.components.ComponentRegistrar" />
-102-->[com.google.firebase:firebase-functions:20.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/f029de2a8fd6fd6a2dc92dafbd4b9d90/jetified-firebase-functions-20.0.0/AndroidManifest.xml:20:17-82
+102-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
 103            <meta-data
-103-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
-104                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-104-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+103-->[com.google.firebase:firebase-functions:20.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\b35d1e9716527726257e62674c3f685c\jetified-firebase-functions-20.0.0\AndroidManifest.xml:18:13-20:85
+104                android:name="com.google.firebase.components:com.google.firebase.functions.FunctionsRegistrar"
+104-->[com.google.firebase:firebase-functions:20.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\b35d1e9716527726257e62674c3f685c\jetified-firebase-functions-20.0.0\AndroidManifest.xml:19:17-111
 105                android:value="com.google.firebase.components.ComponentRegistrar" />
-105-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+105-->[com.google.firebase:firebase-functions:20.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\b35d1e9716527726257e62674c3f685c\jetified-firebase-functions-20.0.0\AndroidManifest.xml:20:17-82
 106            <meta-data
-106-->[com.google.firebase:firebase-iid:21.1.0] /home/llr/.gradle/caches/transforms-2/files-2.1/e0d63e89ee928ef4d55508e31552329c/firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+106-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\e0d63e89ee928ef4d55508e31552329c\firebase-iid-21.1.0\AndroidManifest.xml:32:13-34:85
 107                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-107-->[com.google.firebase:firebase-iid:21.1.0] /home/llr/.gradle/caches/transforms-2/files-2.1/e0d63e89ee928ef4d55508e31552329c/firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+107-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\e0d63e89ee928ef4d55508e31552329c\firebase-iid-21.1.0\AndroidManifest.xml:33:17-96
 108                android:value="com.google.firebase.components.ComponentRegistrar" />
-108-->[com.google.firebase:firebase-iid:21.1.0] /home/llr/.gradle/caches/transforms-2/files-2.1/e0d63e89ee928ef4d55508e31552329c/firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+108-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\e0d63e89ee928ef4d55508e31552329c\firebase-iid-21.1.0\AndroidManifest.xml:34:17-82
 109            <meta-data
-109-->[com.google.firebase:firebase-messaging:22.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/8e4f7f45421bdd8e0e93f7fe7e5349ea/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:52:13-54:85
+109-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\9365ddc97b9879fee4199b4f3cf432d4\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:52:13-54:85
 110                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-110-->[com.google.firebase:firebase-messaging:22.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/8e4f7f45421bdd8e0e93f7fe7e5349ea/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:53:17-119
+110-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\9365ddc97b9879fee4199b4f3cf432d4\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:53:17-119
 111                android:value="com.google.firebase.components.ComponentRegistrar" />
-111-->[com.google.firebase:firebase-messaging:22.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/8e4f7f45421bdd8e0e93f7fe7e5349ea/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:54:17-82
+111-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\9365ddc97b9879fee4199b4f3cf432d4\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:54:17-82
 112            <meta-data
-112-->[com.google.firebase:firebase-firestore:23.0.3] /home/llr/.gradle/caches/transforms-2/files-2.1/c984d553f3f65186f846f6ed38a45ff1/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:20:13-22:85
+112-->[com.google.firebase:firebase-firestore:23.0.3] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\a223ab60859e88254db344f158669089\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:20:13-22:85
 113                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-113-->[com.google.firebase:firebase-firestore:23.0.3] /home/llr/.gradle/caches/transforms-2/files-2.1/c984d553f3f65186f846f6ed38a45ff1/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:21:17-111
+113-->[com.google.firebase:firebase-firestore:23.0.3] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\a223ab60859e88254db344f158669089\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:21:17-111
 114                android:value="com.google.firebase.components.ComponentRegistrar" />
-114-->[com.google.firebase:firebase-firestore:23.0.3] /home/llr/.gradle/caches/transforms-2/files-2.1/c984d553f3f65186f846f6ed38a45ff1/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:22:17-82
+114-->[com.google.firebase:firebase-firestore:23.0.3] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\a223ab60859e88254db344f158669089\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:22:17-82
 115            <meta-data
-115-->[com.google.firebase:firebase-storage:20.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/ce22156c58bb23e6fe65c9502178792a/firebase-storage-20.0.0/AndroidManifest.xml:33:13-35:85
+115-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\ce22156c58bb23e6fe65c9502178792a\firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
 116                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-116-->[com.google.firebase:firebase-storage:20.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/ce22156c58bb23e6fe65c9502178792a/firebase-storage-20.0.0/AndroidManifest.xml:34:17-107
+116-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\ce22156c58bb23e6fe65c9502178792a\firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
 117                android:value="com.google.firebase.components.ComponentRegistrar" />
-117-->[com.google.firebase:firebase-storage:20.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/ce22156c58bb23e6fe65c9502178792a/firebase-storage-20.0.0/AndroidManifest.xml:35:17-82
+117-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\ce22156c58bb23e6fe65c9502178792a\firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
 118            <meta-data
-118-->[com.google.android.gms:play-services-measurement-api:19.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/666ca528dd1466e807d8ce7ad4d502bc/play-services-measurement-api-19.0.0/AndroidManifest.xml:30:13-32:85
+118-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\666ca528dd1466e807d8ce7ad4d502bc\play-services-measurement-api-19.0.0\AndroidManifest.xml:30:13-32:85
 119                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-119-->[com.google.android.gms:play-services-measurement-api:19.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/666ca528dd1466e807d8ce7ad4d502bc/play-services-measurement-api-19.0.0/AndroidManifest.xml:31:17-139
+119-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\666ca528dd1466e807d8ce7ad4d502bc\play-services-measurement-api-19.0.0\AndroidManifest.xml:31:17-139
 120                android:value="com.google.firebase.components.ComponentRegistrar" />
-120-->[com.google.android.gms:play-services-measurement-api:19.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/666ca528dd1466e807d8ce7ad4d502bc/play-services-measurement-api-19.0.0/AndroidManifest.xml:32:17-82
+120-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\666ca528dd1466e807d8ce7ad4d502bc\play-services-measurement-api-19.0.0\AndroidManifest.xml:32:17-82
 121            <meta-data
-121-->[com.google.firebase:firebase-datatransport:18.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/13d740abc15ac1e3b3dc7f0ff6e13391/firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+121-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\13d740abc15ac1e3b3dc7f0ff6e13391\firebase-datatransport-18.0.0\AndroidManifest.xml:28:13-30:85
 122                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-122-->[com.google.firebase:firebase-datatransport:18.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/13d740abc15ac1e3b3dc7f0ff6e13391/firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+122-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\13d740abc15ac1e3b3dc7f0ff6e13391\firebase-datatransport-18.0.0\AndroidManifest.xml:29:17-115
 123                android:value="com.google.firebase.components.ComponentRegistrar" />
-123-->[com.google.firebase:firebase-datatransport:18.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/13d740abc15ac1e3b3dc7f0ff6e13391/firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+123-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\13d740abc15ac1e3b3dc7f0ff6e13391\firebase-datatransport-18.0.0\AndroidManifest.xml:30:17-82
 124            <meta-data
-124-->[com.google.firebase:firebase-installations:17.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/7cac6338df8c8fd3f629890e063a38d6/firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+124-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\7cac6338df8c8fd3f629890e063a38d6\firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
 125                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-125-->[com.google.firebase:firebase-installations:17.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/7cac6338df8c8fd3f629890e063a38d6/firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+125-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\7cac6338df8c8fd3f629890e063a38d6\firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
 126                android:value="com.google.firebase.components.ComponentRegistrar" />
-126-->[com.google.firebase:firebase-installations:17.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/7cac6338df8c8fd3f629890e063a38d6/firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+126-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\7cac6338df8c8fd3f629890e063a38d6\firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
 127        </service>
 128        <service
-128-->[:firebase_messaging] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-15:72
+128-->[:firebase_messaging] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-15:72
 129            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
-129-->[:firebase_messaging] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-107
+129-->[:firebase_messaging] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-107
 130            android:exported="false"
-130-->[:firebase_messaging] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+130-->[:firebase_messaging] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
 131            android:permission="android.permission.BIND_JOB_SERVICE" />
-131-->[:firebase_messaging] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-69
+131-->[:firebase_messaging] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-69
 132        <service
-132-->[:firebase_messaging] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-22:19
+132-->[:firebase_messaging] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-22:19
 133            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
-133-->[:firebase_messaging] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-97
+133-->[:firebase_messaging] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-97
 134            android:exported="false" >
-134-->[:firebase_messaging] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+134-->[:firebase_messaging] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
 135            <intent-filter>
-135-->[:firebase_messaging] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-21:29
+135-->[:firebase_messaging] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-21:29
 136                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-136-->[:firebase_messaging] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-78
-136-->[:firebase_messaging] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-75
+136-->[:firebase_messaging] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-78
+136-->[:firebase_messaging] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:20:25-75
 137            </intent-filter>
 138        </service>
 139
 140        <receiver
-140-->[:firebase_messaging] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:24:9-31:20
+140-->[:firebase_messaging] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:24:9-31:20
 141            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
-141-->[:firebase_messaging] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-98
+141-->[:firebase_messaging] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-98
 142            android:exported="true"
-142-->[:firebase_messaging] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-36
+142-->[:firebase_messaging] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-36
 143            android:permission="com.google.android.c2dm.permission.SEND" >
-143-->[:firebase_messaging] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-73
+143-->[:firebase_messaging] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-73
 144            <intent-filter>
-144-->[:firebase_messaging] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-30:29
+144-->[:firebase_messaging] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-30:29
 145                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-145-->[:firebase_messaging] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:17-81
-145-->[:firebase_messaging] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:25-78
+145-->[:firebase_messaging] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:29:17-81
+145-->[:firebase_messaging] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:29:25-78
 146            </intent-filter>
 147        </receiver>
 148
 149        <provider
-149-->[:firebase_messaging] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:39:9-43:38
+149-->[:firebase_messaging] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:39:9-43:38
 150            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
-150-->[:firebase_messaging] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-102
+150-->[:firebase_messaging] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-102
 151            android:authorities="com.celta.sucursalvirtual.flutterfirebasemessaginginitprovider"
-151-->[:firebase_messaging] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-88
+151-->[:firebase_messaging] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-88
 152            android:exported="false"
-152-->[:firebase_messaging] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-37
+152-->[:firebase_messaging] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-37
 153            android:initOrder="99" />
-153-->[:firebase_messaging] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:43:13-35
+153-->[:firebase_messaging] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-35
 154
 155        <activity
-155-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+155-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
 156            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-156-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+156-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
 157            android:excludeFromRecents="true"
-157-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+157-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
 158            android:exported="true"
-158-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+158-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
 159            android:launchMode="singleTask"
-159-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+159-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
 160            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-160-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+160-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
 161            <intent-filter>
-161-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+161-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
 162                <action android:name="android.intent.action.VIEW" />
-162-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
-162-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+162-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+162-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
 163
 164                <category android:name="android.intent.category.DEFAULT" />
-164-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
-164-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+164-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+164-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
 165                <category android:name="android.intent.category.BROWSABLE" />
-165-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
-165-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+165-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+165-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
 166
 167                <data
-167-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+167-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
 168                    android:host="firebase.auth"
-168-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+168-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
 169                    android:path="/"
-169-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+169-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
 170                    android:scheme="genericidp" />
-170-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+170-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
 171            </intent-filter>
 172        </activity>
 173        <activity
-173-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+173-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
 174            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-174-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+174-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
 175            android:excludeFromRecents="true"
-175-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+175-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
 176            android:exported="true"
-176-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+176-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
 177            android:launchMode="singleTask"
-177-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+177-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
 178            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-178-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+178-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
 179            <intent-filter>
-179-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+179-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
 180                <action android:name="android.intent.action.VIEW" />
-180-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
-180-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+180-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+180-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
 181
 182                <category android:name="android.intent.category.DEFAULT" />
-182-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
-182-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+182-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+182-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
 183                <category android:name="android.intent.category.BROWSABLE" />
-183-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
-183-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+183-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+183-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
 184
 185                <data
-185-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:39:17-42:51
+185-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
 186                    android:host="firebase.auth"
-186-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:40:21-49
+186-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
 187                    android:path="/"
-187-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:41:21-37
+187-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
 188                    android:scheme="recaptcha" />
-188-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:42:21-48
+188-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
 189            </intent-filter>
 190        </activity>
 191
 192        <service
-192-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+192-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
 193            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
-193-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+193-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
 194            android:enabled="true"
-194-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+194-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
 195            android:exported="false" >
-195-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+195-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
 196            <intent-filter>
-196-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+196-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
 197                <action android:name="com.google.firebase.auth.api.gms.service.START" />
-197-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
-197-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+197-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+197-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
 198
 199                <category android:name="android.intent.category.DEFAULT" />
-199-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
-199-->[com.google.firebase:firebase-auth:21.0.1] /home/llr/.gradle/caches/transforms-2/files-2.1/9f62917cc557e307d4ce50268415b519/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+199-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+199-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\094309a3f70419677b78e59b4e253d2a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
 200            </intent-filter>
 201        </service>
 202
 203        <receiver
-203-->[com.google.android.gms:play-services-measurement:19.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/35d786d3d5a1bd549d715c97ced835b3/play-services-measurement-19.0.0/AndroidManifest.xml:29:9-33:20
+203-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\35d786d3d5a1bd549d715c97ced835b3\play-services-measurement-19.0.0\AndroidManifest.xml:29:9-33:20
 204            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-204-->[com.google.android.gms:play-services-measurement:19.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/35d786d3d5a1bd549d715c97ced835b3/play-services-measurement-19.0.0/AndroidManifest.xml:30:13-85
+204-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\35d786d3d5a1bd549d715c97ced835b3\play-services-measurement-19.0.0\AndroidManifest.xml:30:13-85
 205            android:enabled="true"
-205-->[com.google.android.gms:play-services-measurement:19.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/35d786d3d5a1bd549d715c97ced835b3/play-services-measurement-19.0.0/AndroidManifest.xml:31:13-35
+205-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\35d786d3d5a1bd549d715c97ced835b3\play-services-measurement-19.0.0\AndroidManifest.xml:31:13-35
 206            android:exported="false" >
-206-->[com.google.android.gms:play-services-measurement:19.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/35d786d3d5a1bd549d715c97ced835b3/play-services-measurement-19.0.0/AndroidManifest.xml:32:13-37
+206-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\35d786d3d5a1bd549d715c97ced835b3\play-services-measurement-19.0.0\AndroidManifest.xml:32:13-37
 207        </receiver>
 208
 209        <service
-209-->[com.google.android.gms:play-services-measurement:19.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/35d786d3d5a1bd549d715c97ced835b3/play-services-measurement-19.0.0/AndroidManifest.xml:35:9-38:40
+209-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\35d786d3d5a1bd549d715c97ced835b3\play-services-measurement-19.0.0\AndroidManifest.xml:35:9-38:40
 210            android:name="com.google.android.gms.measurement.AppMeasurementService"
-210-->[com.google.android.gms:play-services-measurement:19.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/35d786d3d5a1bd549d715c97ced835b3/play-services-measurement-19.0.0/AndroidManifest.xml:36:13-84
+210-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\35d786d3d5a1bd549d715c97ced835b3\play-services-measurement-19.0.0\AndroidManifest.xml:36:13-84
 211            android:enabled="true"
-211-->[com.google.android.gms:play-services-measurement:19.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/35d786d3d5a1bd549d715c97ced835b3/play-services-measurement-19.0.0/AndroidManifest.xml:37:13-35
+211-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\35d786d3d5a1bd549d715c97ced835b3\play-services-measurement-19.0.0\AndroidManifest.xml:37:13-35
 212            android:exported="false" />
-212-->[com.google.android.gms:play-services-measurement:19.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/35d786d3d5a1bd549d715c97ced835b3/play-services-measurement-19.0.0/AndroidManifest.xml:38:13-37
+212-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\35d786d3d5a1bd549d715c97ced835b3\play-services-measurement-19.0.0\AndroidManifest.xml:38:13-37
 213        <service
-213-->[com.google.android.gms:play-services-measurement:19.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/35d786d3d5a1bd549d715c97ced835b3/play-services-measurement-19.0.0/AndroidManifest.xml:39:9-43:72
+213-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\35d786d3d5a1bd549d715c97ced835b3\play-services-measurement-19.0.0\AndroidManifest.xml:39:9-43:72
 214            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-214-->[com.google.android.gms:play-services-measurement:19.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/35d786d3d5a1bd549d715c97ced835b3/play-services-measurement-19.0.0/AndroidManifest.xml:40:13-87
+214-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\35d786d3d5a1bd549d715c97ced835b3\play-services-measurement-19.0.0\AndroidManifest.xml:40:13-87
 215            android:enabled="true"
-215-->[com.google.android.gms:play-services-measurement:19.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/35d786d3d5a1bd549d715c97ced835b3/play-services-measurement-19.0.0/AndroidManifest.xml:41:13-35
+215-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\35d786d3d5a1bd549d715c97ced835b3\play-services-measurement-19.0.0\AndroidManifest.xml:41:13-35
 216            android:exported="false"
-216-->[com.google.android.gms:play-services-measurement:19.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/35d786d3d5a1bd549d715c97ced835b3/play-services-measurement-19.0.0/AndroidManifest.xml:42:13-37
+216-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\35d786d3d5a1bd549d715c97ced835b3\play-services-measurement-19.0.0\AndroidManifest.xml:42:13-37
 217            android:permission="android.permission.BIND_JOB_SERVICE" />
-217-->[com.google.android.gms:play-services-measurement:19.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/35d786d3d5a1bd549d715c97ced835b3/play-services-measurement-19.0.0/AndroidManifest.xml:43:13-69
+217-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\35d786d3d5a1bd549d715c97ced835b3\play-services-measurement-19.0.0\AndroidManifest.xml:43:13-69
 218
 219        <receiver
-219-->[com.google.firebase:firebase-messaging:22.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/8e4f7f45421bdd8e0e93f7fe7e5349ea/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:28:9-35:20
+219-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\9365ddc97b9879fee4199b4f3cf432d4\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:28:9-35:20
 220            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-220-->[com.google.firebase:firebase-messaging:22.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/8e4f7f45421bdd8e0e93f7fe7e5349ea/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:29:13-78
+220-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\9365ddc97b9879fee4199b4f3cf432d4\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:29:13-78
 221            android:exported="true"
-221-->[com.google.firebase:firebase-messaging:22.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/8e4f7f45421bdd8e0e93f7fe7e5349ea/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:30:13-36
+221-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\9365ddc97b9879fee4199b4f3cf432d4\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:30:13-36
 222            android:permission="com.google.android.c2dm.permission.SEND" >
-222-->[com.google.firebase:firebase-messaging:22.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/8e4f7f45421bdd8e0e93f7fe7e5349ea/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:31:13-73
+222-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\9365ddc97b9879fee4199b4f3cf432d4\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:31:13-73
 223            <intent-filter>
-223-->[:firebase_messaging] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-30:29
+223-->[:firebase_messaging] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-30:29
 224                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-224-->[:firebase_messaging] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:17-81
-224-->[:firebase_messaging] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:29:25-78
+224-->[:firebase_messaging] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:29:17-81
+224-->[:firebase_messaging] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:29:25-78
 225            </intent-filter>
 226        </receiver>
 227        <!--
@@ -403,79 +403,79 @@
 229             but set to not exported to explicitly avoid allowing another app to call it.
 230        -->
 231        <service
-231-->[com.google.firebase:firebase-messaging:22.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/8e4f7f45421bdd8e0e93f7fe7e5349ea/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:41:9-48:19
+231-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\9365ddc97b9879fee4199b4f3cf432d4\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:41:9-48:19
 232            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-232-->[com.google.firebase:firebase-messaging:22.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/8e4f7f45421bdd8e0e93f7fe7e5349ea/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:42:13-82
+232-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\9365ddc97b9879fee4199b4f3cf432d4\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:42:13-82
 233            android:directBootAware="true"
-233-->[com.google.firebase:firebase-messaging:22.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/8e4f7f45421bdd8e0e93f7fe7e5349ea/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:43:13-43
+233-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\9365ddc97b9879fee4199b4f3cf432d4\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:43:13-43
 234            android:exported="false" >
-234-->[com.google.firebase:firebase-messaging:22.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/8e4f7f45421bdd8e0e93f7fe7e5349ea/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:44:13-37
+234-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\9365ddc97b9879fee4199b4f3cf432d4\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:44:13-37
 235            <intent-filter android:priority="-500" >
-235-->[:firebase_messaging] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-21:29
+235-->[:firebase_messaging] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-21:29
 236                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-236-->[:firebase_messaging] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:17-78
-236-->[:firebase_messaging] /home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:20:25-75
+236-->[:firebase_messaging] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-78
+236-->[:firebase_messaging] X:\DESARROLLO\flutter\appCelta\celta\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:20:25-75
 237            </intent-filter>
 238        </service>
 239
 240        <activity
-240-->[com.google.android.gms:play-services-base:17.1.0] /home/llr/.gradle/caches/transforms-2/files-2.1/a2b3031abb4c04068234c016491c7c7c/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+240-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\a2b3031abb4c04068234c016491c7c7c\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
 241            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-241-->[com.google.android.gms:play-services-base:17.1.0] /home/llr/.gradle/caches/transforms-2/files-2.1/a2b3031abb4c04068234c016491c7c7c/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+241-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\a2b3031abb4c04068234c016491c7c7c\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
 242            android:exported="false"
-242-->[com.google.android.gms:play-services-base:17.1.0] /home/llr/.gradle/caches/transforms-2/files-2.1/a2b3031abb4c04068234c016491c7c7c/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+242-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\a2b3031abb4c04068234c016491c7c7c\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
 243            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-243-->[com.google.android.gms:play-services-base:17.1.0] /home/llr/.gradle/caches/transforms-2/files-2.1/a2b3031abb4c04068234c016491c7c7c/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+243-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\a2b3031abb4c04068234c016491c7c7c\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
 244
 245        <provider
-245-->[com.google.firebase:firebase-common:20.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/9f6f82f9c29f01f4041a8487c63fbd4b/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+245-->[com.google.firebase:firebase-common:20.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\b37b81057e91b0696190ce629abe4257\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
 246            android:name="com.google.firebase.provider.FirebaseInitProvider"
-246-->[com.google.firebase:firebase-common:20.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/9f6f82f9c29f01f4041a8487c63fbd4b/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+246-->[com.google.firebase:firebase-common:20.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\b37b81057e91b0696190ce629abe4257\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
 247            android:authorities="com.celta.sucursalvirtual.firebaseinitprovider"
-247-->[com.google.firebase:firebase-common:20.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/9f6f82f9c29f01f4041a8487c63fbd4b/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+247-->[com.google.firebase:firebase-common:20.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\b37b81057e91b0696190ce629abe4257\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
 248            android:directBootAware="true"
-248-->[com.google.firebase:firebase-common:20.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/9f6f82f9c29f01f4041a8487c63fbd4b/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+248-->[com.google.firebase:firebase-common:20.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\b37b81057e91b0696190ce629abe4257\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
 249            android:exported="false"
-249-->[com.google.firebase:firebase-common:20.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/9f6f82f9c29f01f4041a8487c63fbd4b/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+249-->[com.google.firebase:firebase-common:20.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\b37b81057e91b0696190ce629abe4257\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
 250            android:initOrder="100" />
-250-->[com.google.firebase:firebase-common:20.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/9f6f82f9c29f01f4041a8487c63fbd4b/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+250-->[com.google.firebase:firebase-common:20.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\b37b81057e91b0696190ce629abe4257\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
 251
 252        <meta-data
-252-->[com.google.android.gms:play-services-basement:17.1.0] /home/llr/.gradle/caches/transforms-2/files-2.1/7d79a18d1ea0a65825a661ed2cf0df38/jetified-play-services-basement-17.1.0/AndroidManifest.xml:23:9-25:69
+252-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\c1d3f34ca15a5fb92812be53af443511\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
 253            android:name="com.google.android.gms.version"
-253-->[com.google.android.gms:play-services-basement:17.1.0] /home/llr/.gradle/caches/transforms-2/files-2.1/7d79a18d1ea0a65825a661ed2cf0df38/jetified-play-services-basement-17.1.0/AndroidManifest.xml:24:13-58
+253-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\c1d3f34ca15a5fb92812be53af443511\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
 254            android:value="@integer/google_play_services_version" />
-254-->[com.google.android.gms:play-services-basement:17.1.0] /home/llr/.gradle/caches/transforms-2/files-2.1/7d79a18d1ea0a65825a661ed2cf0df38/jetified-play-services-basement-17.1.0/AndroidManifest.xml:25:13-66
+254-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\c1d3f34ca15a5fb92812be53af443511\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
 255
 256        <service
-256-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/561cf442f3c67ecaff7e824d793f5faf/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+256-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\9826efacb0e8f3f6d1cef75722b4e0ff\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:29:9-35:19
 257            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-257-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/561cf442f3c67ecaff7e824d793f5faf/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+257-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\9826efacb0e8f3f6d1cef75722b4e0ff\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:30:13-103
 258            android:exported="false" >
-258-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/561cf442f3c67ecaff7e824d793f5faf/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+258-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\9826efacb0e8f3f6d1cef75722b4e0ff\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:31:13-37
 259            <meta-data
-259-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/561cf442f3c67ecaff7e824d793f5faf/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+259-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\9826efacb0e8f3f6d1cef75722b4e0ff\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:32:13-34:39
 260                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-260-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/561cf442f3c67ecaff7e824d793f5faf/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+260-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\9826efacb0e8f3f6d1cef75722b4e0ff\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:33:17-94
 261                android:value="cct" />
-261-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/561cf442f3c67ecaff7e824d793f5faf/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+261-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\9826efacb0e8f3f6d1cef75722b4e0ff\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:34:17-36
 262        </service>
 263        <service
-263-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/a930083b29180fe36d009c0901c95fdb/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+263-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\f2e4404714869d33f58abe59864e3390\jetified-transport-runtime-3.0.0\AndroidManifest.xml:26:9-30:19
 264            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-264-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/a930083b29180fe36d009c0901c95fdb/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+264-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\f2e4404714869d33f58abe59864e3390\jetified-transport-runtime-3.0.0\AndroidManifest.xml:27:13-117
 265            android:exported="false"
-265-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/a930083b29180fe36d009c0901c95fdb/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+265-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\f2e4404714869d33f58abe59864e3390\jetified-transport-runtime-3.0.0\AndroidManifest.xml:28:13-37
 266            android:permission="android.permission.BIND_JOB_SERVICE" >
-266-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/a930083b29180fe36d009c0901c95fdb/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+266-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\f2e4404714869d33f58abe59864e3390\jetified-transport-runtime-3.0.0\AndroidManifest.xml:29:13-69
 267        </service>
 268
 269        <receiver
-269-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/a930083b29180fe36d009c0901c95fdb/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+269-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\f2e4404714869d33f58abe59864e3390\jetified-transport-runtime-3.0.0\AndroidManifest.xml:32:9-34:40
 270            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-270-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/a930083b29180fe36d009c0901c95fdb/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+270-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\f2e4404714869d33f58abe59864e3390\jetified-transport-runtime-3.0.0\AndroidManifest.xml:33:13-132
 271            android:exported="false" />
-271-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/llr/.gradle/caches/transforms-2/files-2.1/a930083b29180fe36d009c0901c95fdb/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+271-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\rossil.CELTA\.gradle\caches\transforms-2\files-2.1\f2e4404714869d33f58abe59864e3390\jetified-transport-runtime-3.0.0\AndroidManifest.xml:34:13-37
 272    </application>
 273
 274</manifest>
