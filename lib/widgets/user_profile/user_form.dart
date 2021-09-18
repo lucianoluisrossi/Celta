@@ -107,9 +107,7 @@ class _UserFormState extends State<UserForm> {
                       _codUsuarioController.text.toString(),
                     );
                     if (suminData != null) {
-                      await firestoreRegistration.buildUsuarioFirestore(
-                          _nameController.text.toString(),
-                          _codUsuarioController.text.toString());
+                      await firestoreRegistration.buildUsuarioFirestore();
 
                       Fluttertoast.showToast(
                           msg: 'Los datos se registraron correctamente');

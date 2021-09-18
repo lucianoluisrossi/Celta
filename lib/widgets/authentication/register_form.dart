@@ -1,3 +1,4 @@
+import 'package:celta/services/firebase/auth_app_state.dart';
 import 'package:celta/widgets/authentication/show_dialog.dart';
 import 'package:celta/widgets/authentication/auth_button.dart';
 import 'package:celta/widgets/authentication/auth_text_field.dart';
@@ -21,7 +22,8 @@ class RegisterFirebaseAuthForm extends StatefulWidget {
 
 //Propiedades de Auth
   final String email;
-  final void Function(String email, String password) registerAccount;
+  final void Function(String email, String password, String nombre)
+      registerAccount;
   final void Function() emailVerified;
   final void Function()? cancel;
 
@@ -31,8 +33,10 @@ class RegisterFirebaseAuthForm extends StatefulWidget {
 }
 
 class _RegisterFirebaseAuthFormState extends State<RegisterFirebaseAuthForm> {
+  final _firestoreRegistration = AuthAppState();
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
+  final _nameController = TextEditingController();
 
   @override
   void initState() {
@@ -82,6 +86,21 @@ class _RegisterFirebaseAuthFormState extends State<RegisterFirebaseAuthForm> {
                 ),
               ),
               AuthTextField(
+                fieldIcon: Icons.assignment_ind,
+                hint: 'Ingrese su Nombre y Apellido',
+                label: 'Nombre y Apellido',
+                textColor: Colors.green,
+                hideText: false,
+                textController: _nameController,
+                inputType: TextInputType.name,
+                validate: (value) {
+                  if (value!.isEmpty) {
+                    return 'Ingrese sus datos para continuar';
+                  }
+                  return null;
+                },
+              ),
+              AuthTextField(
                 fieldIcon: Icons.mail,
                 hint: 'Ingrese un Email válido',
                 label: 'Email',
@@ -114,8 +133,8 @@ class _RegisterFirebaseAuthFormState extends State<RegisterFirebaseAuthForm> {
               AuthButton(
                   label: 'Registrar',
                   onPressed: () {
-                    widget.registerAccount(
-                        _emailController.text, _passwordController.text);
+                    widget.registerAccount(_emailController.text,
+                        _passwordController.text, _nameController.text);
                   }),
               MaterialButton(
                 onPressed: widget.cancel,

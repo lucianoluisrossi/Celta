@@ -83,18 +83,17 @@ class AuthAppState extends ChangeNotifier {
 //verifica que el usuario haya confirmado el mail
   Future<void> emailVerified() async {
     User? user = FirebaseAuth.instance.currentUser;
-    await user?.reload();
+    user?.reload();
 
     if (user != null && !user.emailVerified) {
       _loginState = AppLoginState.emailVerified;
-      print(user.email);
-      print(user.emailVerified);
+      user.reload();
       notifyListeners();
     } else {
-      _loginState = AppLoginState.loggedIn;
+      user?.reload();
 
-      print(user?.emailVerified);
-      print('mail verificado');
+      await buildUsuarioFirestore();
+      _loginState = AppLoginState.loggedIn;
       notifyListeners();
     }
     notifyListeners();
@@ -122,13 +121,15 @@ class AuthAppState extends ChangeNotifier {
     notifyListeners();
   }
 
-//Register
-  Future<void> registerAccount(String email, String password,
+//Register account in FireBaseAuth
+  Future<void> registerAccount(String email, String password, String nombre,
       void Function(FirebaseAuthException e) errorCallback) async {
     try {
-      await FirebaseAuth.instance
-          .createUserWithEmailAndPassword(email: email, password: password);
-
+      UserCredential result = await FirebaseAuth.instance
+          .createUserWithEmailAndPassword(
+              email: email, password: password); //crea usuario de firebaseAuth
+      User? user = result.user;
+      user!.updateDisplayName(nombre);
       sendVerificationEmail();
 
       //await credential.user!.updateDisplayName(displayName);
@@ -144,29 +145,8 @@ class AuthAppState extends ChangeNotifier {
     notifyListeners();
   }
 
-/*   Future<void> buildFireStoreUser(String nombre, String codUsuario) async {
-    //final usuario = Usuario();
-    CollectionReference usuarios =
-        FirebaseFirestore.instance.collection('usuarios');
-    FirebaseAuth auth = FirebaseAuth.instance;
-    String uid = auth.currentUser!.uid.toString();
-    String email = auth.currentUser!.email.toString();
-
-    usuarios.add(
-      {
-        'nombre': nombre,
-        'email': email,
-        'uid': uid,
-        'codUsuario': codUsuario,
-      },
-    );
-    notifyListeners();
-    return;
-  } */
-
 //Registro de datos de Usuario en FireStore
-  Future<void> buildUsuarioFirestore(
-      String codSuministro, String nombre) async {
+  Future<void> buildUsuarioFirestore() async {
 //Instancio usuario actual de FirebaseAuth
     FirebaseAuth _auth = FirebaseAuth.instance;
 
@@ -180,14 +160,13 @@ class AuthAppState extends ChangeNotifier {
 //Writing values in FireStore
     usuario.email = userAuth!.email;
     usuario.uid = userAuth.uid;
-    usuario.codSuministro = codSuministro;
-    usuario.nombre = nombre;
+    usuario.nombre = userAuth.displayName;
 
     await _fireStore
         .collection('usuarios')
         .doc(userAuth.uid) //Agrega documento uid (extraido de FireBase auth)
         .set(usuario.toFireStore());
-    _loginState = AppLoginState.registeredUser;
+    //_loginState = AppLoginState.loggedIn;
     notifyListeners();
   }
 }

@@ -1,5 +1,7 @@
+import 'package:celta/pages/auth_page.dart';
 import 'package:celta/pages/fac_page.dart';
 import 'package:celta/pages/home_page.dart';
+import 'package:celta/pages/suministros_page.dart';
 import 'package:celta/services/firebase/auth_app_state.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -24,8 +26,10 @@ class App extends StatelessWidget {
       //Rutas
       initialRoute: 'homepage',
       routes: {
+        'authpage': (BuildContext context) => AuthPage(),
         'facpage': (BuildContext context) => FacPage(),
         'homepage': (BuildContext context) => HomePage(),
+        'suministrosPage': (BuildContext context) => SuministrosPage(),
       },
     );
   }

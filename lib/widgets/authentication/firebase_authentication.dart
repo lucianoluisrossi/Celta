@@ -1,4 +1,5 @@
 import 'package:celta/pages/fac_page.dart';
+import 'package:celta/pages/suministros_page.dart';
 import 'package:celta/services/firebase/auth_app_state.dart';
 import 'package:celta/widgets/user_profile/user_form.dart';
 import 'package:celta/widgets/authentication/email_form.dart';
@@ -38,7 +39,7 @@ class FirebaseAuthentication extends StatelessWidget {
 
   final void Function(
     String email,
-    //String displayName,
+    String displayName,
     String password,
     void Function(Exception e) error,
   )? registerAccount;
@@ -73,10 +74,11 @@ class FirebaseAuthentication extends StatelessWidget {
           cancel: () {
             cancelRegistration!();
           },
-          registerAccount: (email, password) {
+          registerAccount: (email, password, nombre) {
             registerAccount!(
               email,
               password,
+              nombre,
               (e) => _showErrorDialog(context, 'Failed to create account', e),
             );
           },
@@ -87,7 +89,7 @@ class FirebaseAuthentication extends StatelessWidget {
           verifiedEmail: emailVerified,
         );
       case AppLoginState.loggedIn:
-        return UserForm();
+        return SuministrosPage();
 
       case AppLoginState.registeredUser:
         return FacPage();
