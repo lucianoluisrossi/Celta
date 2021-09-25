@@ -18,7 +18,7 @@ enum AppLoginState {
 class AuthAppState extends ChangeNotifier {
   AppLoginState _loginState =
       AppLoginState.loggedOut; //esta propiedad se inicializa loggedOut
-  get loginState => _loginState;
+  get loginState => _loginState; //getter para obtener estado de la auth
   String? _email;
   String? get email => _email;
 
@@ -122,6 +122,8 @@ class AuthAppState extends ChangeNotifier {
   }
 
 //Register account in FireBaseAuth
+//Registra con email and Password y actualiza displayName con la variable nombre
+//Ejecuta sendVerificationEmail(), que envia el mail de verificacion y setea AppLoginState.emailVerified
   Future<void> registerAccount(String email, String password, String nombre,
       void Function(FirebaseAuthException e) errorCallback) async {
     try {
