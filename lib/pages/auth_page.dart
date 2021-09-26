@@ -10,7 +10,21 @@ class AuthPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Celta'),
+        centerTitle: true,
+        backgroundColor: Colors.white,
+        leading: Container(
+          margin: EdgeInsets.all(5),
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage('assets/images/logo-celtacoop.png'),
+              fit: BoxFit.contain,
+            ),
+          ),
+        ),
+        title: Text(
+          'Sucursal Virtual',
+          style: TextStyle(color: Colors.green),
+        ),
       ),
       body: Center(
         child: Consumer<AuthAppState>(
