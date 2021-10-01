@@ -1,3 +1,4 @@
+import 'package:celta/services/http/suministros_json.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -170,5 +171,13 @@ class AuthAppState extends ChangeNotifier {
         .set(usuario.toFireStore());
     //_loginState = AppLoginState.loggedIn;
     notifyListeners();
+  }
+
+  Future<void> addSuministroFireStore(String suministro) async {
+    FirebaseFirestore _fireStore = FirebaseFirestore.instance;
+
+    Future<dynamic> _getSumin = SuministrosJson().getData(suministro);
+
+    //TODO: continuar 1  --  if(_getSumin)
   }
 }

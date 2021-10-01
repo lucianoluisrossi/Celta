@@ -1,6 +1,7 @@
 import 'package:celta/src/widgets/fondo_celta.dart';
 
 import 'package:celta/widgets/authentication/firebase_authentication.dart';
+import 'package:celta/widgets/authentication/show_dialog.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
@@ -15,6 +16,8 @@ class _SuministrosPageState extends State<SuministrosPage> {
   @override
   Widget build(BuildContext context) {
     final mediaQuery = MediaQuery.of(context).size;
+    String text;
+    text = 'hola';
 
     String? user = FirebaseAuth.instance.currentUser?.displayName;
     List<String> suministros = [
@@ -32,7 +35,7 @@ class _SuministrosPageState extends State<SuministrosPage> {
                 Container(
                   padding: EdgeInsets.all(10),
                   child: Text(
-                    'Mis Suministros',
+                    text,
                     style: TextStyle(fontSize: 20),
                   ),
                 ),
@@ -51,34 +54,43 @@ class _SuministrosPageState extends State<SuministrosPage> {
             height: mediaQuery.height * 0.1,
             width: mediaQuery.width,
             decoration: BoxDecoration(color: Colors.green),
-            child: Row(
+            child: Column(
               children: [
-                Expanded(
-                  child: Container(
-                    padding: EdgeInsets.all(10),
-                    child: DropdownButton(
-                      isExpanded: true,
-                      items: suministros
-                          .map((String e) => DropdownMenuItem(
-                                child: Text(e),
-                                value: e,
-                              ))
-                          .toList(),
-                      onChanged: (_value) {
-                        setState(() {
-                          //TODO: cambiar vista de suministros
-                        });
-                      },
-                      hint: Text('Suministros'),
+                Row(
+                  children: [
+                    Expanded(
+                      child: Container(
+                        padding: EdgeInsets.all(10),
+                        child: DropdownButton(
+                          isExpanded: true,
+                          items: suministros
+                              .map((String e) => DropdownMenuItem(
+                                    child: Text(e),
+                                    value: e,
+                                  ))
+                              .toList(),
+                          onChanged: (_value) {
+                            setState(() {
+                              //TODO: cambiar vista de suministros
+                            });
+                          },
+                          hint: Text('Suministros'),
+                        ),
+                      ),
                     ),
-                  ),
+                    Container(
+                        padding: EdgeInsets.all(5),
+                        decoration: BoxDecoration(shape: BoxShape.circle),
+                        child: IconButton(
+                            //TODO: NO FUNCIONA!!!
+                            onPressed: () {
+                              setState(() {
+                                text = 'Mis suministros';
+                              });
+                            },
+                            icon: Icon(Icons.add_circle_outline_rounded)))
+                  ],
                 ),
-                Container(
-                    padding: EdgeInsets.all(5),
-                    decoration: BoxDecoration(shape: BoxShape.circle),
-                    child: IconButton(
-                        onPressed: () {},
-                        icon: Icon(Icons.add_circle_outline_rounded)))
               ],
             ),
           ),

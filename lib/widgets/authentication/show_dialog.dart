@@ -1,4 +1,3 @@
-import 'package:celta/widgets/authentication/auth_button.dart';
 import 'package:flutter/material.dart';
 
 class ShowDialog extends StatelessWidget {
