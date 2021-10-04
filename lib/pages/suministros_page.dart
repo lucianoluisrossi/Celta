@@ -1,7 +1,5 @@
-import 'package:celta/src/widgets/fondo_celta.dart';
+import 'package:celta/widgets/dialogs/custom_dialog_box.dart';
 
-import 'package:celta/widgets/authentication/firebase_authentication.dart';
-import 'package:celta/widgets/authentication/show_dialog.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
@@ -16,8 +14,6 @@ class _SuministrosPageState extends State<SuministrosPage> {
   @override
   Widget build(BuildContext context) {
     final mediaQuery = MediaQuery.of(context).size;
-    String text;
-    text = 'hola';
 
     String? user = FirebaseAuth.instance.currentUser?.displayName;
     List<String> suministros = [
@@ -35,7 +31,7 @@ class _SuministrosPageState extends State<SuministrosPage> {
                 Container(
                   padding: EdgeInsets.all(10),
                   child: Text(
-                    text,
+                    'Administre sus Servicios',
                     style: TextStyle(fontSize: 20),
                   ),
                 ),
@@ -84,9 +80,17 @@ class _SuministrosPageState extends State<SuministrosPage> {
                         child: IconButton(
                             //TODO: NO FUNCIONA!!!
                             onPressed: () {
-                              setState(() {
-                                text = 'Mis suministros';
-                              });
+                              showDialog(
+                                  context: context,
+                                  builder: (BuildContext context) {
+                                    return CustomDialogBox(
+                                      title: 'Nuevo Suministro',
+                                      buttonUpText: 'Agregar',
+                                      buttonDownText: 'Salir',
+                                      descriptions:
+                                          'Ingrese un código de Suministro para administrar',
+                                    );
+                                  });
                             },
                             icon: Icon(Icons.add_circle_outline_rounded)))
                   ],

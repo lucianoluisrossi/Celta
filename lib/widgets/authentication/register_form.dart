@@ -1,6 +1,5 @@
 import 'package:celta/services/firebase/auth_app_state.dart';
 import 'package:celta/src/widgets/fondo_celta.dart';
-import 'package:celta/widgets/authentication/show_dialog.dart';
 import 'package:celta/widgets/authentication/auth_button.dart';
 import 'package:celta/widgets/authentication/auth_text_field.dart';
 
