@@ -89,6 +89,20 @@ class _SuministrosPageState extends State<SuministrosPage> {
                                       buttonDownText: 'Salir',
                                       descriptions:
                                           'Ingrese un código de Suministro para administrar',
+                                      onPressUp: () {},
+                                      onPressDown: () {
+                                        Navigator.of(context).pop();
+                                      },
+                                      textFieldColor: Colors.green,
+                                      textFieldController: null,
+                                      textFieldHideText: false,
+                                      textFieldHint:
+                                          'Ingrese un Suministro Válido',
+                                      textFieldIcon: Icons.home_work_rounded,
+                                      textFieldInputType: TextInputType.number,
+                                      textFieldLabel: 'Código de Suministro',
+                                      textFieldOnChange: () {},
+                                      textFieldValidate: null,
                                     );
                                   });
                             },

@@ -79,7 +79,7 @@ class FirebaseAuthentication extends StatelessWidget {
               email,
               password,
               nombre,
-              (e) => _showErrorDialog(context, 'Failed to create account', e),
+              (e) => _showErrorDialog(context, 'Error al crear la cuenta', e),
             );
           },
           emailVerified: emailVerified,

@@ -10,13 +10,36 @@ import 'constants.dart';
 class CustomDialogBox extends StatefulWidget {
   final String? title, descriptions, buttonUpText, buttonDownText;
   final Image? img;
+  final Function()? onPressUp;
+  final Function()? onPressDown;
+  final Function()? textFieldValidate;
+  final IconData? textFieldIcon;
+  final String? textFieldHint;
+  final String? textFieldLabel;
+  final Color? textFieldColor;
+  final bool? textFieldHideText;
+  final Function()? textFieldOnChange;
+  final TextEditingController? textFieldController;
+  final TextInputType? textFieldInputType;
 
-  const CustomDialogBox(
-      {this.title,
-      this.descriptions,
-      this.buttonUpText,
-      this.img,
-      this.buttonDownText});
+  const CustomDialogBox({
+    this.title,
+    this.descriptions,
+    this.buttonUpText,
+    this.img,
+    this.buttonDownText,
+    required this.onPressUp,
+    required this.onPressDown,
+    this.textFieldColor,
+    this.textFieldController,
+    this.textFieldHideText,
+    this.textFieldHint,
+    this.textFieldIcon,
+    this.textFieldInputType,
+    this.textFieldLabel,
+    this.textFieldOnChange,
+    this.textFieldValidate,
+  });
 
   @override
   _CustomDialogBoxState createState() => _CustomDialogBoxState();
@@ -72,29 +95,18 @@ class _CustomDialogBoxState extends State<CustomDialogBox> {
                   }
                   return null;
                 },
-                fieldIcon: Icons.home_work_rounded,
-                hint: 'Ingrese un Suministro Válido',
-                label: 'Código de Suministro',
-                textColor: Colors.green,
-                hideText: false,
-                onChange: (value) {},
-                textController: null,
-                inputType: TextInputType.number,
+                fieldIcon: widget.textFieldIcon,
+                hint: widget.textFieldHint,
+                label: widget.textFieldLabel,
+                textColor: widget.textFieldColor,
+                hideText: widget.textFieldHideText,
+                //onChange: (value) {},
+                textController: widget.textFieldController,
+                inputType: widget.textFieldInputType,
               ),
-              AuthButton(label: 'Agregar', onPressed: () {}),
-              /* MaterialButton(
-                onPressed: () {
-                  Navigator.of(context).pop();
-                },
-                child: Text(
-                  widget.buttonUpText!,
-                  style: TextStyle(fontSize: 20),
-                ),
-              ), */
+              AuthButton(label: 'Agregar', onPressed: widget.onPressUp!),
               MaterialButton(
-                onPressed: () {
-                  Navigator.of(context).pop();
-                },
+                onPressed: widget.onPressDown,
                 child: Text(
                   widget.buttonDownText!,
                   style: TextStyle(fontSize: 12),

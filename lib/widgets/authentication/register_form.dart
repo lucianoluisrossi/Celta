@@ -1,12 +1,10 @@
-import 'package:celta/services/firebase/auth_app_state.dart';
 import 'package:celta/src/widgets/fondo_celta.dart';
 import 'package:celta/widgets/authentication/auth_button.dart';
 import 'package:celta/widgets/authentication/auth_text_field.dart';
-
 import 'package:flutter/material.dart';
 
 class RegisterFirebaseAuthForm extends StatefulWidget {
-  const RegisterFirebaseAuthForm(
+  RegisterFirebaseAuthForm(
       {this.alignmentForm,
       this.formHeight,
       this.formWidth,
@@ -33,7 +31,7 @@ class RegisterFirebaseAuthForm extends StatefulWidget {
 }
 
 class _RegisterFirebaseAuthFormState extends State<RegisterFirebaseAuthForm> {
-  final _firestoreRegistration = AuthAppState();
+  //final _firestoreRegistration = AuthAppState();
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
   final _nameController = TextEditingController();
