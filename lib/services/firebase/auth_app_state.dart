@@ -182,12 +182,14 @@ class AuthAppState extends ChangeNotifier {
     endPoint.getSuministro(codSuministro);
     Suministro suministro = Suministro();
 
-    suministro.suministro = codSuministro;
+    suministro.codSuministro = codSuministro;
     suministro.uid = _auth.currentUser!.uid;
     await _fireStore
         .collection('suministros')
         .doc(suministro.uid)
         .set(suministro.toJson());
+
+    //TODO: 05/10/2021 VER COMO AGREGAR A FIRESTORE UN UID CON VARIOS SUMINISTROS
     notifyListeners();
     //TODO: continuar 1  --  if(_getSumin)
   }
