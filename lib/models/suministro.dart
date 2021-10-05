@@ -12,17 +12,19 @@ class Suministro {
     this.idcategoria,
     this.ruta,
     this.idcliente,
-    required this.fechaAlta,
+    this.fechaAlta,
     this.idstatus,
+    this.uid,
   });
 
-  final String? suministro;
-  final String? servicio;
-  final String? idcategoria;
-  final int? ruta;
-  final int? idcliente;
-  final DateTime fechaAlta;
-  final int? idstatus;
+  String? suministro;
+  String? servicio;
+  String? idcategoria;
+  int? ruta;
+  int? idcliente;
+  DateTime? fechaAlta;
+  int? idstatus;
+  String? uid;
 
   factory Suministro.fromJson(Map<String, dynamic> json) => Suministro(
         suministro: json["suministro"],
@@ -40,7 +42,7 @@ class Suministro {
         "idcategoria": idcategoria,
         "ruta": ruta,
         "idcliente": idcliente,
-        "fecha_alta": fechaAlta.toIso8601String(),
+        "fecha_alta": fechaAlta!.toIso8601String(),
         "idstatus": idstatus,
       };
 }

@@ -1,3 +1,4 @@
+import 'package:celta/services/firebase/auth_app_state.dart';
 import 'package:celta/widgets/dialogs/custom_dialog_box.dart';
 
 import 'package:firebase_auth/firebase_auth.dart';
@@ -14,6 +15,7 @@ class _SuministrosPageState extends State<SuministrosPage> {
   @override
   Widget build(BuildContext context) {
     final mediaQuery = MediaQuery.of(context).size;
+    final _codSuministroController = TextEditingController();
 
     String? user = FirebaseAuth.instance.currentUser?.displayName;
     List<String> suministros = [
@@ -89,12 +91,16 @@ class _SuministrosPageState extends State<SuministrosPage> {
                                       buttonDownText: 'Salir',
                                       descriptions:
                                           'Ingrese un código de Suministro para administrar',
-                                      onPressUp: () {},
+                                      onPressUp: () {
+                                        AuthAppState().addSuministroFireStore(
+                                            _codSuministroController.text);
+                                      },
                                       onPressDown: () {
                                         Navigator.of(context).pop();
                                       },
                                       textFieldColor: Colors.green,
-                                      textFieldController: null,
+                                      textFieldController:
+                                          _codSuministroController,
                                       textFieldHideText: false,
                                       textFieldHint:
                                           'Ingrese un Suministro Válido',

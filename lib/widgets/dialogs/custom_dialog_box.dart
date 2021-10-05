@@ -12,7 +12,7 @@ class CustomDialogBox extends StatefulWidget {
   final Image? img;
   final Function()? onPressUp;
   final Function()? onPressDown;
-  final Function()? textFieldValidate;
+  final String? Function(String?)? textFieldValidate;
   final IconData? textFieldIcon;
   final String? textFieldHint;
   final String? textFieldLabel;
@@ -89,12 +89,7 @@ class _CustomDialogBoxState extends State<CustomDialogBox> {
                 textAlign: TextAlign.center,
               ),
               AuthTextField(
-                validate: (value) {
-                  if (value!.isEmpty) {
-                    return 'Ingrese un email válido para continuar';
-                  }
-                  return null;
-                },
+                validate: widget.textFieldValidate,
                 fieldIcon: widget.textFieldIcon,
                 hint: widget.textFieldHint,
                 label: widget.textFieldLabel,

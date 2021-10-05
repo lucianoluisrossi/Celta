@@ -1,3 +1,5 @@
+import 'package:celta/models/suministro.dart';
+import 'package:celta/services/http/endpoints.dart';
 import 'package:celta/services/http/http_connection.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';
@@ -173,11 +175,20 @@ class AuthAppState extends ChangeNotifier {
     notifyListeners();
   }
 
-  /*  Future<void> addSuministroFireStore(String suministro) async {
+  Future<void> addSuministroFireStore(String codSuministro) async {
+    FirebaseAuth _auth = FirebaseAuth.instance;
     FirebaseFirestore _fireStore = FirebaseFirestore.instance;
+    Endpoint endPoint = Endpoint();
+    endPoint.getSuministro(codSuministro);
+    Suministro suministro = Suministro();
 
-    Future<dynamic> _getSumin = HttpConnection().getData(suministro);
-
+    suministro.suministro = codSuministro;
+    suministro.uid = _auth.currentUser!.uid;
+    await _fireStore
+        .collection('suministros')
+        .doc(suministro.uid)
+        .set(suministro.toJson());
+    notifyListeners();
     //TODO: continuar 1  --  if(_getSumin)
-  } */
+  }
 }
