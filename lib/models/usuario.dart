@@ -13,10 +13,6 @@ class Usuario {
 
   //Data to FireStore
   Map<String, dynamic> toFireStore() {
-    return {
-      'uid': uid,
-      'nombre': nombre,
-      'email': email,
-    };
+    return {'uid': uid, 'nombre': nombre, 'email': email, 'suministros': []};
   }
 }

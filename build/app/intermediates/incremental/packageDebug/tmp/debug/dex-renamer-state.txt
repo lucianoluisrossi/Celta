@@ -1,4 +1,4 @@
-#Tue Oct 05 10:15:08 ART 2021
+#Wed Oct 06 10:51:20 ART 2021
 base.2=X\:\\DESARROLLO\\flutter\\appCelta\\celta\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes2.dex
 base.1=X\:\\DESARROLLO\\flutter\\appCelta\\celta\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
 base.0=X\:\\DESARROLLO\\flutter\\appCelta\\celta\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
