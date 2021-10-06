@@ -1,44 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "X:\\DESARROLLO\\flutter\\appCelta\\celta\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rBR\\values-pt-rBR.xml",
+            "outputFile": "/home/llr/DESARROLLO/FLUTTER/appCelta/celta/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\rossil.CELTA\\.gradle\\caches\\transforms-2\\files-2.1\\c1d3f34ca15a5fb92812be53af443511\\jetified-play-services-basement-17.1.0\\res\\values-pt-rBR\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "251",
-                        "endColumns": "203",
-                        "endOffsets": "454"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1275",
-                        "endColumns": "203",
-                        "endOffsets": "1474"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\rossil.CELTA\\.gradle\\caches\\transforms-2\\files-2.1\\a2b3031abb4c04068234c016491c7c7c\\play-services-base-17.1.0\\res\\values-pt-rBR\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "249,352,532,657,763,989,1117,1265,1395,1624,1730,1925,2053,2269,2452,2547,2639",
-                        "endColumns": "102,179,124,105,225,127,147,129,228,105,194,127,215,182,94,91,108",
-                        "endOffsets": "351,531,656,762,988,1116,1264,1394,1623,1729,1924,2052,2268,2451,2546,2638,2747"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,212,392,521,631,857,989,1141,1479,1708,1818,2013,2145,2361,2548,2647,2743",
-                        "endColumns": "106,179,128,109,225,131,151,133,228,109,194,131,215,186,98,95,112",
-                        "endOffsets": "207,387,516,626,852,984,1136,1270,1703,1813,2008,2140,2356,2543,2642,2738,2851"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\rossil.CELTA\\.gradle\\caches\\transforms-2\\files-2.1\\9365ddc97b9879fee4199b4f3cf432d4\\jetified-firebase-messaging-22.0.0\\res\\values-pt-rBR\\values.xml",
+                    "source": "/home/llr/.gradle/caches/transforms-2/files-2.1/8e4f7f45421bdd8e0e93f7fe7e5349ea/jetified-firebase-messaging-22.0.0/res/values-pt-rBR/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -55,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\rossil.CELTA\\.gradle\\caches\\transforms-2\\files-2.1\\fd24535dd44cb47b00ac4816db3309ce\\core-1.1.0\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "source": "/home/llr/.gradle/caches/transforms-2/files-2.1/fd24535dd44cb47b00ac4816db3309ce/core-1.1.0/res/values-pt-rBR/values-pt-rBR.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -69,6 +35,40 @@
                         "startOffsets": "2933",
                         "endColumns": "100",
                         "endOffsets": "3029"
+                    }
+                },
+                {
+                    "source": "/home/llr/.gradle/caches/transforms-2/files-2.1/7d79a18d1ea0a65825a661ed2cf0df38/jetified-play-services-basement-17.1.0/res/values-pt-rBR/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "251",
+                        "endColumns": "203",
+                        "endOffsets": "454"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1275",
+                        "endColumns": "203",
+                        "endOffsets": "1474"
+                    }
+                },
+                {
+                    "source": "/home/llr/.gradle/caches/transforms-2/files-2.1/a2b3031abb4c04068234c016491c7c7c/play-services-base-17.1.0/res/values-pt-rBR/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "249,352,532,657,763,989,1117,1265,1395,1624,1730,1925,2053,2269,2452,2547,2639",
+                        "endColumns": "102,179,124,105,225,127,147,129,228,105,194,127,215,182,94,91,108",
+                        "endOffsets": "351,531,656,762,988,1116,1264,1394,1623,1729,1924,2052,2268,2451,2546,2638,2747"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,212,392,521,631,857,989,1141,1479,1708,1818,2013,2145,2361,2548,2647,2743",
+                        "endColumns": "106,179,128,109,225,131,151,133,228,109,194,131,215,186,98,95,112",
+                        "endOffsets": "207,387,516,626,852,984,1136,1270,1703,1813,2008,2140,2356,2543,2642,2738,2851"
                     }
                 }
             ]

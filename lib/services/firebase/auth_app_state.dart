@@ -175,22 +175,20 @@ class AuthAppState extends ChangeNotifier {
     notifyListeners();
   }
 
-  Future<void> addSuministroFireStore(String codSuministro) async {
+//Agrego suministros a usuario de FireStore
+  Future<void> addSuministroToFireStore(String codSuministro) async {
     FirebaseAuth _auth = FirebaseAuth.instance;
     FirebaseFirestore _fireStore = FirebaseFirestore.instance;
     Endpoint endPoint = Endpoint();
-    endPoint.getSuministro(codSuministro);
-    Suministro suministro = Suministro();
 
-    suministro.codSuministro = codSuministro;
-    suministro.uid = _auth.currentUser!.uid;
+    var verifySumin = endPoint.getSuministro(codSuministro);
+
+    print(verifySumin);
+
     await _fireStore.collection('usuarios').doc(_auth.currentUser!.uid).update({
-      'suministros': [codSuministro]
+      'suministros': FieldValue.arrayUnion([codSuministro])
     });
-    //.set(suministro.toJson());
 
-    //TODO: 05/10/2021 VER COMO AGREGAR A FIRESTORE UN UID CON VARIOS SUMINISTROS
     notifyListeners();
-    //TODO: continuar 1  --  if(_getSumin)
   }
 }

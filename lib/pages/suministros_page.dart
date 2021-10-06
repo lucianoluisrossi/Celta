@@ -92,7 +92,7 @@ class _SuministrosPageState extends State<SuministrosPage> {
                                       descriptions:
                                           'Ingrese un código de Suministro para administrar',
                                       onPressUp: () {
-                                        AuthAppState().addSuministroFireStore(
+                                        AuthAppState().addSuministroToFireStore(
                                             _codSuministroController.text);
                                       },
                                       onPressDown: () {
