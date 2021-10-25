@@ -1,5 +1,5 @@
 import 'package:celta/services/firebase/auth_app_state.dart';
-import 'package:celta/src/widgets/fondo_celta.dart';
+
 import 'package:celta/widgets/authentication/firebase_authentication.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
